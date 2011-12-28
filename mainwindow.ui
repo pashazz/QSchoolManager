@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>411</height>
+    <height>524</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -134,7 +134,11 @@
             </widget>
            </item>
            <item row="2" column="0" rowspan="11">
-            <widget class="QListWidget" name="lstPupils"/>
+            <widget class="QListWidget" name="lstPupils">
+             <property name="selectionMode">
+              <enum>QAbstractItemView::MultiSelection</enum>
+             </property>
+            </widget>
            </item>
           </layout>
          </widget>
@@ -194,7 +198,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>19</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
